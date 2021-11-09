@@ -1,13 +1,10 @@
-from flask import Flask, render_template, url_for
+from flask import Flask
+from .views.frontpage import frontpage_blueprint
 
 app = Flask(__name__)
 
-
-# Sovelluksen etusivu
-@app.route("/")
-def frontpage():
-    return render_template("frontpage.html")
-
+# Rekisteröidään eri näkymien blueprintit
+app.register_blueprint(frontpage_blueprint)
 
 # Käynnistetään sovellus debug-modessa
 if __name__ == "__main__":
