@@ -2,7 +2,7 @@
 
 {% block head %}
 
-<title>Trending</title>
+<title>{{date_string}}</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/trending.css') }}">
 
 {% endblock %}
@@ -10,12 +10,16 @@
 {% block body %} 
 
 <div>
-    <h1>Trending data for: {{date_string}}</h1>
-    {% for trend in trends %}
-        <p>
-            <a href="{{trend.get('url')}}">{{trend.get("name")}}</a>
-        </p>
-    {% endfor %}
+    <h1>Trending data for: {{date_string}} {% if date_string == today%}(today){% endif %}</h1>
+    {% if trends|length > 0 %}
+        {% for trend in trends %}
+            <p>
+                <a href="{{trend.get('url')}}">{{trend.get("name")}}</a>
+            </p>
+        {% endfor %}
+    {% else %}
+            <p>No trends available</p>
+    {% endif %}
 </div>
 
 {% endblock %}

@@ -4,7 +4,7 @@ import requests, json
 from datetime import date
 from application.control.api_keys import load_bearer_token
 
-
+# Ladataan API-avaimet tunnistautumista varten.
 bearer_token = load_bearer_token()
 
 # Hakee Twitter API:sta tiedon kaikista mahdollisista lokaatioista joista on saatavilla trendaus-dataa.
