@@ -1,8 +1,8 @@
-from flask import app, Flask, render_template, Blueprint, request
-from flask.wrappers import Response
-import requests, json
+from flask import render_template, Blueprint, request
 from datetime import date
 from application.control.api_keys import load_bearer_token
+from application.control.trends import get_trends, add_trends, query_trends, show_all
+import json
 
 trending_blueprint = Blueprint("trending", __name__)
 
@@ -27,10 +27,23 @@ def trending():
     else:
         date_string = today
 
-        response = requests.get(f"https://api.twitter.com/1.1/trends/place.json?id={woeid}", headers= {"Authorization": f'Bearer {bearer_token}'})
+        trends = get_trends(woeid)
 
-        trends = response.json()[0].get("trends")
+        #print(trends)
 
-        print(type(trends))
-                
+        add_trends(trends)
+
+        #print(date_string)
+
+        if query_trends(date_string):
+            print("Löytyi!")
+            trends = query_trends(date_string)
+            print(type(trends))
+
+
+        #print(trends)
+
+        #show_all()
+
+             
     return render_template("trending.html", trends=trends, date_string=date_string, today=today)

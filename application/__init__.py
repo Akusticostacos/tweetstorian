@@ -1,27 +1,25 @@
 from flask import Flask
-from .views.frontpage import frontpage_blueprint
-from .views.trending import trending_blueprint
 from .control.locations import get_locations
 from flask_sqlalchemy import SQLAlchemy
-import json
 
-app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///trending_data.db"
-db = SQLAlchemy(app)
+def create_app():
 
-# SQL tietokannan alustaminen.
-class trending_data(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    # String muotoa dd-mm-yy
-    date_string = db.Column(db.String(10), unique=True, nullable=False)
-    # JSON muotoinen String
-    trending_string = db.Column(db.Text, nullable=False)
+    app = Flask(__name__)
+    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///trending_data.db"
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+    
+    from .control.extentions import db
+    
 
-    def __repr__(self) -> str:
-        return "Trending data for: %r" % self.date_string
+    db.init_app(app)
 
-# Rekisteröidään eri näkymien blueprintit
-app.register_blueprint(frontpage_blueprint)
-app.register_blueprint(trending_blueprint)
+    # Rekisteröidään eri näkymien blueprintit
+    from .views.frontpage import frontpage_blueprint
+    from .views.trending import trending_blueprint
 
-get_locations()
+    app.register_blueprint(frontpage_blueprint)
+    app.register_blueprint(trending_blueprint)
+
+    get_locations()
+
+    return app

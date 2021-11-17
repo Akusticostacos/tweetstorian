@@ -1,7 +1,5 @@
-from flask import app, Flask, render_template, Blueprint, request
-from flask.wrappers import Response
-import requests, json
-from datetime import date
+
+import requests
 from application.control.api_keys import load_bearer_token
 
 # Ladataan API-avaimet tunnistautumista varten.
