@@ -20,16 +20,6 @@ def get_trends(woeid):
     response = requests.get(f"https://api.twitter.com/1.1/trends/place.json?id={woeid}", headers= {"Authorization": f'Bearer {bearer_token}'})
 
     trends = response.json()[0].get("trends")
-    # print(type(trends))
-
-    # trends = json.dumps(trends)
-    # print(type(trends))
-
-    # trends = json.loads(trends)
-    # print(type(trends))
-
-    # trends = json.dumps(trends)
-    # print(type(trends))
 
     return trends
 
@@ -39,7 +29,8 @@ def add_trends(trends):
 
     today = date.today().strftime("%d-%m-%Y")
 
-    trends = json.dumps(trends)
+    # Muutetaan <list> -> <string>
+    trends = repr(trends)
 
     data = trending_data(date_string=today, trends_string=trends)
 
@@ -53,7 +44,8 @@ def query_trends(date):
 
     trends = data.trends_string
 
-    trends = json.loads(trends)
+    # Muutetaan <string> -> <list>
+    trends = literal_eval(trends)
 
     return trends
 

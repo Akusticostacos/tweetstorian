@@ -23,27 +23,24 @@ def trending():
 
     # Haetaan haluttu päivämäärä requestin parametrista "date", mikäli arvoa ei ole asetettu, käytetään kuluvan päivän päivämäärää
     if request.args.get("date"):
+
         date_string = request.args.get("date")
-    else:
-        date_string = today
-
-        trends = get_trends(woeid)
-
-        #print(trends)
-
-        add_trends(trends)
-
-        #print(date_string)
 
         if query_trends(date_string):
             print("Löytyi!")
             trends = query_trends(date_string)
             print(type(trends))
+    else:
+        date_string = today
 
+        #trends = get_trends(woeid)
 
-        #print(trends)
+        #add_trends(trends)
 
-        #show_all()
+        if query_trends(date_string):
+            print("Löytyi!")
+            trends = query_trends(date_string)
+            print(type(trends))
 
              
     return render_template("trending.html", trends=trends, date_string=date_string, today=today)
