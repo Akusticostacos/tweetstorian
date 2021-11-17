@@ -12,5 +12,5 @@ def get_locations():
 
     response = requests.get("https://api.twitter.com/1.1/trends/available.json", headers= {"Authorization": f'Bearer {bearer_token}'})
 
-    with open('locations.txt', 'a', encoding="utf-8") as f:
+    with open('locations.txt', 'w', encoding="utf-8") as f:
         f.write(str(response.json()))
