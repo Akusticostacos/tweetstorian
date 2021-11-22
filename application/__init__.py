@@ -1,6 +1,7 @@
 from flask import Flask
 from .control.locations import get_locations
 from flask_sqlalchemy import SQLAlchemy
+from .control.scheduler import set_scheduler
 
 def create_app():
 
@@ -21,5 +22,6 @@ def create_app():
     app.register_blueprint(trending_blueprint)
 
     get_locations()
+    set_scheduler()
 
     return app
