@@ -1,5 +1,6 @@
 from application.control.extentions import db
 
+
 class trending_data(db.Model):
     
     id = db.Column(db.Integer, primary_key=True)

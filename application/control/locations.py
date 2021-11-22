@@ -1,4 +1,3 @@
-
 import requests
 from application.control.api_keys import load_bearer_token
 

@@ -10,11 +10,18 @@
 {% block body %} 
 
 <div>
+    <select name="Date" id="Date" onChange="window.location.href=this.value">
+        <option value="">{{ date_string }}</option>
+        {% for row in all_dates %}   
+            <option value="/trending?date={{row.date_string}}"> {{ row.date_string }}</option>
+        {% endfor %}
+    </select>
+
     <h1>Trending data for: {{date_string}} {% if date_string == today%}(today){% endif %}</h1>
     {% if trends|length > 0 %}
         {% for trend in trends %}
             <p>
-                <a href="{{trend.get('url')}}">{{trend.get("name")}}</a>
+                <a href="{{trend.get('url')}}" target="_blank">{{trend.get("name")}}</a>
             </p>
         {% endfor %}
     {% else %}

@@ -42,12 +42,19 @@ def query_trends(date):
 
     data = trending_data.query.filter_by(date_string=date).first()
 
-    trends = data.trends_string
+    if data is not None:
+        trends = data.trends_string
 
-    # Muutetaan <string> -> <list>
-    trends = literal_eval(trends)
+        # Muutetaan <string> -> <list>
+        trends = literal_eval(trends)
 
-    return trends
+        return trends
+
+def get_all_entries():
+
+    data = trending_data.query.all()
+
+    return data
 
 
 def show_all():
@@ -56,7 +63,3 @@ def show_all():
 
     for row in data:
         print(row.id, row.date_string)
-
-
-
-
