@@ -1,3 +1,4 @@
+from re import DEBUG
 from flask import Flask
 from .control.locations import get_locations
 from flask_sqlalchemy import SQLAlchemy
@@ -11,7 +12,6 @@ def create_app():
     
     from .control.extentions import db
     
-
     db.init_app(app)
 
     # Rekisteröidään eri näkymien blueprintit
@@ -21,7 +21,10 @@ def create_app():
     app.register_blueprint(frontpage_blueprint)
     app.register_blueprint(trending_blueprint)
 
+    with app.app_context():
+        db.create_all()
+        
     get_locations()
-    set_scheduler()
+    set_scheduler(app)
 
     return app

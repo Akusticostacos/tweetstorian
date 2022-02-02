@@ -9,23 +9,40 @@
 
 {% block body %} 
 
-<div>
-    <select name="Date" id="Date" onChange="window.location.href=this.value">
-        <option value="">{{ date_string }}</option>
+<div class="main_div">
+
+    <select name="date_select" id="date_select" class="date_select" onChange="window.location.href=this.value">
+
         {% for row in all_dates %}   
-            <option value="/trending?date={{row.date_string}}"> {{ row.date_string }}</option>
+            
+            {% if row.date_string == date_string %}
+                <option value="/?date={{row.date_string}}" selected> {{ row.date_string }}</option>
+            {% else %}
+                <option value="/?date={{row.date_string}}"> {{ row.date_string }}</option>
+            {% endif %}
+
         {% endfor %}
+
     </select>
 
     <h1>Trending data for: {{date_string}} {% if date_string == today%}(today){% endif %}</h1>
+
     {% if trends|length > 0 %}
-        {% for trend in trends %}
-            <p>
-                <a href="{{trend.get('url')}}" target="_blank">{{trend.get("name")}}</a>
-            </p>
+
+        {% for trend_div in trends|batch(10) %}
+            
+            <div class="trend_div">
+                {% for trend in trend_div %}
+                    <p>
+                        <a href="{{trend.get('url')}}" target="_blank" class="trend_link">{{trend.get("name")}}</a>
+                    </p>
+                {% endfor %}
+            </div>
+
         {% endfor %}
+
     {% else %}
-            <p>No trends available</p>
+            <p>No trends available for selected date.</p>
     {% endif %}
 </div>
 

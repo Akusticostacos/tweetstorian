@@ -6,7 +6,6 @@ from application.control.model import trending_data
 import json
 from ast import literal_eval
 
-
 # Hakee ajankohtaisen trendaus-datan twitterin API:sta
 # woeid:
 # "The id parameter for this endpoint is the "where on earth identifier" or WOEID"
@@ -25,7 +24,7 @@ def get_trends(woeid):
 
 
 # Tallentaa trendaustiedot tietokantaan.
-def add_trends(trends):
+def add_trends(trends, app):
 
     today = date.today().strftime("%d-%m-%Y")
 
@@ -34,8 +33,14 @@ def add_trends(trends):
 
     data = trending_data(date_string=today, trends_string=trends)
 
-    db.session.add(data)
-    db.session.commit()
+    with app.app_context():
+
+        try:
+            db.session.add(data)
+            db.session.commit()
+            print("Data tallennettu " + today)
+        except:
+            print("ERROR: Päivälle on jo tallennettu!")
 
 
 def query_trends(date):
@@ -49,6 +54,7 @@ def query_trends(date):
         trends = literal_eval(trends)
 
         return trends
+        
 
 def get_all_entries():
 

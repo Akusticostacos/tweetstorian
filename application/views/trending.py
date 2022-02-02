@@ -15,7 +15,7 @@ bearer_token = load_bearer_token()
 woeid = "23424977"
 
 # Sivu jolla näytetään halutun päiväyksen trendaus tiedot
-@trending_blueprint.route("/trending")
+@trending_blueprint.route("/")
 def trending():
 
     trends = {}

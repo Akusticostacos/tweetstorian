@@ -1,18 +1,23 @@
 from requests.api import get
 from application.control.trends import get_trends, add_trends, query_trends, show_all, get_all_entries
-import schedule
-import time
+from apscheduler.schedulers.background import BackgroundScheduler
 
-# "Työ" joka hakee ja tallentaa trendaus-tiedot tietokantaan
-def job():
-    
-    add_trends(get_trends("23424977"))
-    print("Työ tehty!")
 
-def set_scheduler():
+def set_scheduler(app):
 
-    schedule.every().day.at("23:50").do(job)
+    # "Työ" joka hakee ja tallentaa trendaus-tiedot tietokantaan
+    def job():
+        
+        add_trends(get_trends("23424977"),app)
+        print("Työ tehty!")
 
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+    # Alustetaan scheduler joka toimii sovelluksen taustalla
+    scheduler = BackgroundScheduler(timezone="Europe/Helsinki")
+
+    # Annetaan schedulerille työ ja taikataulu (24h välein)
+    scheduler.add_job(job, "interval", hours=24)
+
+    # Käynnistetään scheduler
+    scheduler.start()
+    job()
+    print("Scheduler pystyssä!")
