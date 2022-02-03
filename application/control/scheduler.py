@@ -1,6 +1,7 @@
 from requests.api import get
-from application.control.trends import get_trends, add_trends, query_trends, show_all, get_all_entries
+from application.control.trends import get_trends, add_trends
 from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.triggers.cron import CronTrigger
 
 
 def set_scheduler(app):
@@ -11,13 +12,17 @@ def set_scheduler(app):
         add_trends(get_trends("23424977"),app)
         print("Työ tehty!")
 
+    # Crontrigger joka päivälle klo 23:55:00
+    trigger = CronTrigger(
+        year="*", month="*", day="*", hour="23", minute="55", second="0"
+    )
+
     # Alustetaan scheduler joka toimii sovelluksen taustalla
     scheduler = BackgroundScheduler(timezone="Europe/Helsinki")
 
-    # Annetaan schedulerille työ ja taikataulu (24h välein)
-    scheduler.add_job(job, "interval", hours=24)
+    # Annetaan schedulerille työ ja trigger
+    scheduler.add_job(func=job, trigger=trigger)
 
     # Käynnistetään scheduler
     scheduler.start()
-    job()
     print("Scheduler pystyssä!")
