@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block head %}
+
+<title>About TweetStorian</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/trending.css') }}">
+
+{% endblock %}
+
+{% block body %}
+
+<div class="header">
+    <a href="https://twitter.com/search?q=%23Tweetstorian%0A" class="logo">#TweetStorian - Trending In History</a>
+    <div class="header-right">
+        <a href="/">Home</a>
+        <a href="/about" class="active">About</a>
+    </div>
+</div>
+
+<div class="main_div">
+<h2> What is TweetStorian? </h1>
+<p> TweetStorian is a web application that fetches Twitter's daily trending data and saves it into a database</p>
+<h2> Why? </h2>
+<p> So we're able to go back in time, and see what was on people's mind on a certain day in history. </p>
+<h2> How is it done? </h2>
+<p> TweetStorian gets the trending data through Twitter's API during peak tweeting hours to maximalize the datas credibility </p>
+
+<div class="footer"></div>
+
+{% endblock %}

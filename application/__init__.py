@@ -15,10 +15,10 @@ def create_app():
     db.init_app(app)
 
     # Rekisteröidään eri näkymien blueprintit
-    from .views.frontpage import frontpage_blueprint
+    from .views.about import about_blueprint
     from .views.trending import trending_blueprint
 
-    app.register_blueprint(frontpage_blueprint)
+    app.register_blueprint(about_blueprint)
     app.register_blueprint(trending_blueprint)
 
     with app.app_context():
