@@ -18,7 +18,10 @@ def get_trends(woeid):
 
     response = requests.get(f"https://api.twitter.com/1.1/trends/place.json?id={woeid}", headers= {"Authorization": f'Bearer {bearer_token}'})
 
-    trends = response.json()[0].get("trends")
+    try:
+        trends = response.json().pop(0).get("trends")
+    except:
+        trends = []
 
     return trends
 
