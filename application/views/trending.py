@@ -3,6 +3,7 @@ from datetime import date
 from application.control.api_keys import load_bearer_token
 from application.control.trends import get_trends, add_trends, query_trends, show_all, get_all_entries
 import json
+from application.control.api_keys import load_bearer_token
 
 trending_blueprint = Blueprint("trending", __name__)
 
@@ -35,4 +36,4 @@ def trending():
 
         trends = get_trends(woeid)
 
-    return render_template("trending.html", trends=trends, date_string=date_string, today=today, all_dates=get_all_entries())
+    return render_template("trending.html", trends=trends, date_string=date_string, today=today, all_dates=get_all_entries(), bearer_token=bearer_token)
