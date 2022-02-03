@@ -21,8 +21,11 @@ def create_app():
     app.register_blueprint(about_blueprint)
     app.register_blueprint(trending_blueprint)
 
-    with app.app_context():
-        db.create_all()
+    try:
+        with app.app_context():
+            db.create_all()
+    except:
+        print("")
         
     get_locations()
     set_scheduler(app)
