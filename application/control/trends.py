@@ -47,7 +47,7 @@ def add_trends(trends, app):
         except:
             print("ERROR: Päivälle on jo tallennettu!")
 
-
+# Hakee tietokannasta trendaus-tiedot tietylle päivämäärälle
 def query_trends(date):
 
     data = trending_data.query.filter_by(date_string=date).first()
@@ -60,7 +60,7 @@ def query_trends(date):
 
         return trends
         
-
+# Palauttaa tietokannan kaikki syötteet
 def get_all_entries():
 
     data = trending_data.query.all()
@@ -76,10 +76,11 @@ def show_all():
         print(row.id, row.date_string)
 
 
+# Lisää lisätietoja jonkin päivämäärän kohdalle additional_info tauluun
 def add_additional_info(date, info_string, app):
 
     with app.app_context():
-        
+
         data = trending_data.query.filter_by(date_string=date).first()
 
         info = additional_info(additional_info_string=info_string, trending_data_id=data.id)
@@ -92,6 +93,7 @@ def add_additional_info(date, info_string, app):
             print("ERROR")
 
 
+# Hakee lisätiedot päivämäärälle
 def query_additional_info(date):
     
     data = trending_data.query.filter_by(date_string=date).first()
