@@ -64,6 +64,8 @@ def create_app():
     # Käynnistetään scheduler joka hakee trendaus-datan haluttuun aikaan päivästä
     set_scheduler(app)
 
-    add_additional_info("06.01.2022", "test", app)
+    add_additional_info("06.01.2022", "test 1", app)
+    add_additional_info("06.01.2022", "test 2", app)
+    add_additional_info("06.01.2022", "test 3", app)
 
     return app
