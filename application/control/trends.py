@@ -83,14 +83,16 @@ def add_additional_info(date, info_string, app):
 
         data = trending_data.query.filter_by(date_string=date).first()
 
-        info = additional_info(additional_info_string=info_string, trending_data_id=data.id)
+        if data is not None:
+            
+            info = additional_info(additional_info_string=info_string, trending_data_id=data.id)
 
-        try:
-            db.session.add(info)
-            db.session.commit()
-            print("Informaatiota lisätty " + data.date_string)
-        except:
-            print("ERROR")
+            try:
+                db.session.add(info)
+                db.session.commit()
+                print("Informaatiota lisätty " + data.date_string)
+            except:
+                print("ERROR")
 
 
 # Hakee lisätiedot päivämäärälle
