@@ -22,7 +22,7 @@
     <h1>Trending data for: {{date_string}} {% if date_string == today%}(today){% endif %}</h1>
 
     <select name="date_select" id="date_select" class="date_select" onChange="window.location.href=this.value">
-
+        <option value="/" selected> {{ today }}</option>
         {% for row in all_dates %}   
             
             {% if row.date_string == date_string %}
@@ -51,8 +51,15 @@
                     </p>
                 {% endfor %}
             </div>
-
         {% endfor %}
+
+        <div class="additional_info_div">
+            {% if additional_info|length > 0 %}
+                {% for info in additional_info%}
+                    <p>{{ info.additional_info_string }}</p>
+                {% endfor %}
+            {% endif %}
+        </div>
 
     {% else %}
             <p>No trends available for selected date.</p>

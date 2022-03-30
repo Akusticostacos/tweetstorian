@@ -2,7 +2,7 @@ from application.control.api_keys import load_bearer_token
 import requests
 from datetime import date
 from application.control.extentions import db
-from application.control.model import trending_data
+from application.control.model import trending_data, additional_info
 import json
 from ast import literal_eval
 
@@ -22,6 +22,8 @@ def get_trends(woeid):
         trends = response.json().pop(0).get("trends")
     except:
         trends = []
+
+    #print(repr(trends))
 
     return trends
 
@@ -52,7 +54,7 @@ def query_trends(date):
 
     if data is not None:
         trends = data.trends_string
-
+        #print(trends)
         # Muutetaan <string> -> <list>
         trends = literal_eval(trends)
 
@@ -72,3 +74,34 @@ def show_all():
 
     for row in data:
         print(row.id, row.date_string)
+
+
+def add_additional_info(date, info_string, app):
+
+    with app.app_context():
+        
+        data = trending_data.query.filter_by(date_string=date).first()
+
+        info = additional_info(additional_info_string=info_string, trending_data_id=data.id)
+
+        try:
+            db.session.add(info)
+            db.session.commit()
+            print("Informaatiota lisätty " + data.date_string)
+        except:
+            print("ERROR")
+
+
+def query_additional_info(date):
+    
+    data = trending_data.query.filter_by(date_string=date).first()
+
+    if data is not None:
+        additional_info = data.additional_info
+              
+        return additional_info
+
+
+
+
+

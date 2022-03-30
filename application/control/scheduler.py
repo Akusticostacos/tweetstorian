@@ -10,6 +10,7 @@ def set_scheduler(app):
     def job():
         
         add_trends(get_trends("23424977"),app)
+        
         print("Työ tehty!")
 
     # Crontrigger joka päivälle klo 23:55:00

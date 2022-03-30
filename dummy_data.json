@@ -1,0 +1,36 @@
+{
+    "1" : {
+        "date_string" : "01.01.2022", 
+        "trends_string" : "[{'name': 'Bruce Willis', 'url': 'http://twitter.com/search?q=%22Bruce+Willis%22', 'promoted_content': None, 'query': '%22Bruce+Willis%22', 'tweet_volume': 85909},{'name': 'Bruce Willis', 'url': 'http://twitter.com/search?q=%22Bruce+Willis%22', 'promoted_content': None, 'query': '%22Bruce+Willis%22', 'tweet_volume': 85909}]",
+        "additional_info" : "https://www.is.fi/viihde/art-2000008719038.html"
+        },
+
+    "2" : {
+        "date_string" : "02.01.2022", 
+        "trends_string" : "[{'name': 'Bruce Willis', 'url': 'http://twitter.com/search?q=%22Bruce+Willis%22', 'promoted_content': None, 'query': '%22Bruce+Willis%22', 'tweet_volume': 85909},{'name': 'Bruce Willis', 'url': 'http://twitter.com/search?q=%22Bruce+Willis%22', 'promoted_content': None, 'query': '%22Bruce+Willis%22', 'tweet_volume': 85909}]",
+        "additional_info" : "https://www.is.fi/viihde/art-2000008719038.html"
+    },
+
+    "3" : {
+        "date_string" : "03.01.2022", 
+        "trends_string" : "[{'name': 'Bruce Willis', 'url': 'http://twitter.com/search?q=%22Bruce+Willis%22', 'promoted_content': None, 'query': '%22Bruce+Willis%22', 'tweet_volume': 85909},{'name': 'Bruce Willis', 'url': 'http://twitter.com/search?q=%22Bruce+Willis%22', 'promoted_content': None, 'query': '%22Bruce+Willis%22', 'tweet_volume': 85909}]",
+        "additional_info" : "https://www.is.fi/viihde/art-2000008719038.html"
+    },
+
+    "4" : {
+        "date_string" : "04.01.2022", 
+        "trends_string" : "[{'name': 'Bruce Willis', 'url': 'http://twitter.com/search?q=%22Bruce+Willis%22', 'promoted_content': None, 'query': '%22Bruce+Willis%22', 'tweet_volume': 85909},{'name': 'Bruce Willis', 'url': 'http://twitter.com/search?q=%22Bruce+Willis%22', 'promoted_content': None, 'query': '%22Bruce+Willis%22', 'tweet_volume': 85909}]",
+        "additional_info" : "https://www.is.fi/viihde/art-2000008719038.html"
+    },
+
+    "5" : {
+        "date_string" : "05.01.2022", 
+        "trends_string" : "[{'name': 'Bruce Willis', 'url': 'http://twitter.com/search?q=%22Bruce+Willis%22', 'promoted_content': None, 'query': '%22Bruce+Willis%22', 'tweet_volume': 85909},{'name': 'Bruce Willis', 'url': 'http://twitter.com/search?q=%22Bruce+Willis%22', 'promoted_content': None, 'query': '%22Bruce+Willis%22', 'tweet_volume': 85909}]",
+        "additional_info" : "https://www.is.fi/viihde/art-2000008719038.html"
+    },
+
+    "6" : {
+        "date_string" : "06.01.2022", 
+        "trends_string" : "[{'name': 'Bruce Willis', 'url': 'http://twitter.com/search?q=%22Bruce+Willis%22', 'promoted_content': None, 'query': '%22Bruce+Willis%22', 'tweet_volume': 85909},{'name': 'Bruce Willis', 'url': 'http://twitter.com/search?q=%22Bruce+Willis%22', 'promoted_content': None, 'query': '%22Bruce+Willis%22', 'tweet_volume': 85909}]"
+    }
+}

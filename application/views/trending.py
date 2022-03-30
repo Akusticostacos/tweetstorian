@@ -1,7 +1,8 @@
 from flask import render_template, Blueprint, request
 from datetime import date
 from application.control.api_keys import load_bearer_token
-from application.control.trends import get_trends, add_trends, query_trends, show_all, get_all_entries
+from application.control.model import additional_info
+from application.control.trends import get_trends, add_trends, query_trends, show_all, get_all_entries, add_additional_info, query_additional_info
 import json
 from application.control.api_keys import load_bearer_token
 
@@ -24,15 +25,19 @@ def trending():
 
     date_string = request.args.get("date")
 
+    additional_info = ""
+
     # Haetaan haluttu päivämäärä requestin parametrista "date", mikäli arvoa ei ole asetettu, käytetään ja näytetään kuluvan päivän päivämäärää
     if request.args.get("date"):
 
         if query_trends(date_string) is not None:
             print("Found trending data for: " + date_string)
             trends = query_trends(date_string)
-            print(type(trends))
+            #print(type(trends))
+
+            additional_info = query_additional_info(date_string)
     else:
         date_string = today
         trends = get_trends(woeid)
 
-    return render_template("trending.html", trends=trends, date_string=date_string, today=today, all_dates=get_all_entries())
+    return render_template("trending.html", trends=trends, date_string=date_string, today=today, all_dates=get_all_entries(), additional_info=additional_info)
