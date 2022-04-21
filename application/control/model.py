@@ -25,6 +25,7 @@ class trending_data(db.Model):
 class additional_info(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
-    additional_info_string = db.Column(db.String(200))
+    additional_info_string = db.Column(db.String(500))
+    sources_url_string = db.Column(db.String(500))
     trending_data_id = db.Column(db.Integer, db.ForeignKey('trending_data.id'),
         nullable=False)
