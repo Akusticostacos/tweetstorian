@@ -37,6 +37,7 @@ def trending():
             print(trends)
 
             additional_info = query_additional_info(date_string)
+            
     else:
         date_string = today
         trends = get_trends(woeid)

@@ -61,6 +61,7 @@ def create_app():
     
     # Haetaan mahdolliset lokaatiot
     get_locations()
+
     # Käynnistetään scheduler joka hakee trendaus-datan haluttuun aikaan päivästä
     set_scheduler(app)
 
