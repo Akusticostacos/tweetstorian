@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block head %}
+
+<title>About TweetStorian</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/trending.css') }}">
+
+{% endblock %}
+
+{% block body %}
+
+<div class="header">
+    <a href="https://twitter.com/search?q=%23Tweetstorian%0A" class="logo">#TweetStorian - Trending In History</a>
+    <div class="header-right">
+        <a href="/">Home</a>
+        <a href="/about" class="active">About</a>
+    </div>
+</div>
+
+<div class="main_div">
+
+</div>
+
+<div class="footer"></div>
+
+{% endblock %}

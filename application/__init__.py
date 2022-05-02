@@ -22,9 +22,11 @@ def create_app():
     # Rekisteröidään eri näkymien blueprintit
     from .views.about import about_blueprint
     from .views.trending import trending_blueprint
+    from .views.admin import admin_blueprint
 
     app.register_blueprint(about_blueprint)
     app.register_blueprint(trending_blueprint)
+    app.register_blueprint(admin_blueprint)
 
     # Luodaan sovelluksen tietokanta
     try:
