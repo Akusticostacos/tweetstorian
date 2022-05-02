@@ -42,4 +42,5 @@ def trending():
         date_string = today
         trends = get_trends(woeid)
 
-    return render_template("trending.html", trends=trends, date_string=date_string, today=today, all_dates=get_all_entries(), additional_info=additional_info)
+
+    return render_template("trending.html", trends=trends, date_string=date_string, today=today, all_dates=reversed(get_all_entries()), additional_info=additional_info)

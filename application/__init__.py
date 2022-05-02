@@ -43,7 +43,7 @@ def create_app():
                     print(data)
 
                     if dummy_data.get(key).get("additional_info") is not None:
-                        info = additional_info(additional_info_string=dummy_data.get(key).get("additional_info"), trending_data_id=key)
+                        info = additional_info(additional_info_string=dummy_data.get(key).get("additional_info"), sources_url_string=dummy_data.get(key).get("sources_url"), trending_data_id=key)
                         print(info)
 
                     try:
@@ -64,9 +64,5 @@ def create_app():
 
     # Käynnistetään scheduler joka hakee trendaus-datan haluttuun aikaan päivästä
     set_scheduler(app)
-
-    add_additional_info("06-01-2022", "test 1", app)
-    add_additional_info("06-01-2022", "test 2", app)
-    add_additional_info("06-01-2022", "test 3", app)
 
     return app

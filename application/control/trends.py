@@ -77,7 +77,7 @@ def show_all():
 
 
 # Lisää lisätietoja jonkin päivämäärän kohdalle additional_info tauluun
-def add_additional_info(date, info_string, app):
+def add_additional_info(date, info_string, sources_string, app):
 
     with app.app_context():
 
@@ -85,7 +85,7 @@ def add_additional_info(date, info_string, app):
 
         if data is not None:
             
-            info = additional_info(additional_info_string=info_string, trending_data_id=data.id)
+            info = additional_info(additional_info_string=info_string, sources_url_string=sources_string, trending_data_id=data.id)
 
             try:
                 db.session.add(info)
