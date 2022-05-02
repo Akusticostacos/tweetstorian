@@ -2,7 +2,7 @@
 
 {% block head %}
 
-<title>About TweetStorian</title>
+<title>Admin</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/trending.css') }}">
 
 {% endblock %}
@@ -18,6 +18,36 @@
 </div>
 
 <div class="main_div">
+
+    <select name="date_select" id="date_select" class="date_select">
+        <option value="/" selected> Select date </option>
+        {% for row in all_dates %}       
+            <option value="{{ request.form['title'] }}"> {{ row.date_string }}</option>          
+        {% endfor %}
+    </select>
+
+    <form method="post">
+        <br>
+        <label for="info">Additional information</label>
+        <br>
+        <textarea name="info"
+                  placeholder="What happened on this day?"
+                  rows="15"
+                  cols="60"
+                  >{{ request.form['info'] }}</textarea>
+        <br>
+        <br>
+        <label for="source">Source</label>
+        <br>
+        <input type="text" name="source"
+               placeholder="URL"
+               value="{{ request.form['source'] }}">
+        </input>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
 
 </div>
 
