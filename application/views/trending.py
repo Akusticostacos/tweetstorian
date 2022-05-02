@@ -29,7 +29,7 @@ def trending():
     additional_info = ""
 
     # Haetaan haluttu päivämäärä requestin parametrista "date", mikäli arvoa ei ole asetettu, käytetään ja näytetään kuluvan päivän päivämäärää
-    if request.args.get("date") and re.match("^([1-9]|1[0-9]|2[0-9]|3[0-1])-([1-9]|1[0-2])-(19[0-9][0-9]|20[0-9][0-9])$", request.args.get("date")):
+    if request.args.get("date") and re.match("^(0[1-9]|1[0-9]|2[0-9]|3[0-1])-(0[1-9]|1[0-2])-(19[0-9][0-9]|20[0-9][0-9])$", request.args.get("date")):
 
         if query_trends(date_string) is not None:
             print("Found trending data for: " + date_string)
