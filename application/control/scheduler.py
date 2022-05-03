@@ -15,7 +15,7 @@ def set_scheduler(app):
 
     # Crontrigger joka päivälle klo 23:55:00
     trigger = CronTrigger(
-        year="*", month="*", day="*", hour="22", minute="10", second="0"
+        year="*", month="*", day="*", hour="23", minute="55", second="0"
     )
 
     # Alustetaan scheduler joka toimii sovelluksen taustalla
