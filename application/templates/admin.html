@@ -13,18 +13,36 @@
     <a href="https://twitter.com/search?q=%23Tweetstorian%0A" class="logo">#TweetStorian - Trending In History</a>
     <div class="header-right">
         <a href="/">Home</a>
-        <a href="/about" class="active">About</a>
+        <a href="/about">About</a>
+        <a href="/admin" class="active">Admin</a>
     </div>
 </div>
 
 <div class="main_div">
 
-    <select name="date_select" id="date_select" class="date_select">
-        <option value="/" selected> Select date </option>
-        {% for row in all_dates %}       
-            <option value="{{ request.form['title'] }}"> {{ row.date_string }}</option>          
+    <select name="date_select" id="date_select" class="date_select" onChange="window.location.href=this.value">
+        <option value="/admin" selected> Select date </option>
+        {% for row in all_dates %}   
+            
+            {% if row.date_string == date_string %}
+                <option value="/admin?date={{row.date_string}}" selected> {{ row.date_string }}</option>
+            {% else %}
+                <option value="/admin?date={{row.date_string}}"> {{ row.date_string }}</option>
+            {% endif %}
+            
         {% endfor %}
+
     </select>
+
+    <div class="additional_info_div">
+        {% if additional_info|length > 0 %}
+            {% for info in additional_info%}
+                <p>{{ info.additional_info_string }}</p>
+                <p>{{ info.sources_url_string }}</p>
+                <button class="delete_button" onclick="{delete(date_string)}"> Delete </button>
+            {% endfor %}
+        {% endif %}
+    </div>
 
     <form method="post">
         <br>

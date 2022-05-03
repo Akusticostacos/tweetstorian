@@ -77,22 +77,22 @@ def show_all():
 
 
 # Lisää lisätietoja jonkin päivämäärän kohdalle additional_info tauluun
-def add_additional_info(date, info_string, sources_string, app):
+def add_additional_info(date, info_string, sources_string):
 
-    with app.app_context():
+    #with app.app_context():
 
-        data = trending_data.query.filter_by(date_string=date).first()
+    data = trending_data.query.filter_by(date_string=date).first()
 
-        if data is not None:
-            
-            info = additional_info(additional_info_string=info_string, sources_url_string=sources_string, trending_data_id=data.id)
+    if data is not None:
+        
+        info = additional_info(additional_info_string=info_string, sources_url_string=sources_string, trending_data_id=data.id)
 
-            try:
-                db.session.add(info)
-                db.session.commit()
-                print("Informaatiota lisätty " + data.date_string)
-            except:
-                print("ERROR")
+        try:
+            db.session.add(info)
+            db.session.commit()
+            print("Informaatiota lisätty " + data.date_string)
+        except:
+            print("ERROR")
 
 
 # Hakee lisätiedot päivämäärälle
@@ -104,6 +104,14 @@ def query_additional_info(date):
         additional_info = data.additional_info
               
         return additional_info
+
+def delete_additional_info(date):
+
+    info = query_additional_info(date)
+
+    db.session.delete(info)
+    db.session.commit()
+    print("Informaatiota poistettu!")
 
 
 
