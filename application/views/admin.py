@@ -1,5 +1,6 @@
 from flask import app, Flask, render_template, Blueprint, request, redirect, url_for
 import requests, json
+from application.control.model import additional_info
 from application.control.trends import delete_additional_info, get_trends, add_trends, query_trends, show_all, get_all_entries, add_additional_info, query_additional_info, delete_additional_info
 import re
 
@@ -29,4 +30,12 @@ def admin():
    
         return redirect("/admin?date="+date_string)
 
-    return render_template("admin.html", all_dates=reversed(get_all_entries()), date_string=date_string, additional_info=additional_info, delete=delete_additional_info, trends=trends)
+    return render_template("admin.html", all_dates=reversed(get_all_entries()), date_string=date_string, additional_info=additional_info, delete=delete_additional_info)
+
+
+@admin_blueprint.route("/admin/delete/<int:id>/<string:date_string>")
+def admin_delete(id, date_string):
+
+    delete_additional_info(id)
+
+    return redirect("/admin?date=" + date_string)

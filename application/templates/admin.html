@@ -37,9 +37,11 @@
     <div class="additional_info_div">
         {% if additional_info|length > 0 %}
             {% for info in additional_info%}
-                <p>{{ info.additional_info_string }}</p>
-                <p>{{ info.sources_url_string }}</p>
-                <button class="delete_button" onclick="{delete(date_string)}"> Delete </button>
+
+            <p name="info_string">{{ info.additional_info_string }}</p>
+            <p name="source_string">{{ info.sources_url_string }}</p>
+            <button class="delete_button" onclick="window.location.href='/admin/delete/{{info.id}}/{{date_string}}'"> Delete </button>
+
             {% endfor %}
         {% endif %}
     </div>

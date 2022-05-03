@@ -105,10 +105,10 @@ def query_additional_info(date):
               
         return additional_info
 
-def delete_additional_info(date):
 
-    info = query_additional_info(date)
+def delete_additional_info(id):
 
+    info = additional_info.query.get(id)
     db.session.delete(info)
     db.session.commit()
     print("Informaatiota poistettu!")
