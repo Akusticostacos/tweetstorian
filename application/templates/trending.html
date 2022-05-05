@@ -61,7 +61,7 @@
         {% if additional_info|length > 0 %}
             {% for info in additional_info%}
                 <p>{{ info.additional_info_string }}</p>
-                <p>{{ info.sources_url_string }}</p>
+                <a href="{{ info.sources_url_string }}"> Source </a>
             {% endfor %}
         {% endif %}
     </div>

@@ -33,6 +33,7 @@ def admin():
     return render_template("admin.html", all_dates=reversed(get_all_entries()), date_string=date_string, additional_info=additional_info, delete=delete_additional_info)
 
 
+# endpoint tietokantatietojen poistamiseen
 @admin_blueprint.route("/admin/delete/<int:id>/<string:date_string>")
 def admin_delete(id, date_string):
 

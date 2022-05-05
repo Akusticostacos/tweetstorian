@@ -1,6 +1,7 @@
 import json
 import os
 
+# Alustetaan polku API-avaimille, lähinnä siksi että Apache löytää ne ajon aikana.
 api_keys_path = os.path.join(os.path.dirname(__file__), "api_keys.json")
 
 def load_bearer_token():

@@ -67,7 +67,7 @@ def get_all_entries():
 
     return data
 
-
+# Tulostaa konsoliin kaikki trending-tiedot, testaus tarkoituksessa.
 def show_all():
 
     data = trending_data.query.all()
@@ -106,6 +106,7 @@ def query_additional_info(date):
         return additional_info
 
 
+# Poistaa lisätietoja tietokannasta
 def delete_additional_info(id):
 
     info = additional_info.query.get(id)
