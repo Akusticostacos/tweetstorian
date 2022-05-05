@@ -23,9 +23,9 @@ Käynnistä sovellus:
 
 Sovelluksen käyttöohje ja ominaisuudet:
 
--Etusivu automaattisesti näyttää kuluvan päivän reaaliaikaisia trendaustietoja, tämä ilmaistaan käyttäjälle (today)-merkinnällä.
--Alasvetovalikosta käyttäjä voi valita tietokannasta löytyviä päivämääriä ja tarkastella näiden päivien trendaavimpia puheenaiheita.
--Taulukon alapuolella on lista päivälle lisätyistä lisätiedoista, mikäli pääkäyttäjä on niitä lisännyt:
-    - /admin -polussa pääkäyttäjä voi lisätä lisätietoja kullekin tallennetuista päivämääristä (ei kuluvalle päivälle), sekä poistaa aiemmin lisättyjä lisätietoja.
-        - Lisätiedot muodostavat vapaa teksti sekä url-muotoinen lähde.
-- /about sivulla käyttäjille kerrotaan lyhyesti mistä sovelluksessa on kyse.
+    -Etusivu automaattisesti näyttää kuluvan päivän reaaliaikaisia trendaustietoja, tämä ilmaistaan käyttäjälle (today)-merkinnällä.
+    -Alasvetovalikosta käyttäjä voi valita tietokannasta löytyviä päivämääriä ja tarkastella näiden päivien trendaavimpia puheenaiheita.
+    -Taulukon alapuolella on lista päivälle lisätyistä lisätiedoista, mikäli pääkäyttäjä on niitä lisännyt:
+        - /admin -polussa pääkäyttäjä voi lisätä lisätietoja kullekin tallennetuista päivämääristä (ei kuluvalle päivälle), sekä poistaa aiemmin lisättyjä lisätietoja.
+            - Lisätiedot muodostavat vapaa teksti sekä url-muotoinen lähde.
+    - /about sivulla käyttäjille kerrotaan lyhyesti mistä sovelluksessa on kyse.
