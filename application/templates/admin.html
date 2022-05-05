@@ -50,18 +50,12 @@
         <br>
         <label for="info">Additional information</label>
         <br>
-        <textarea name="info"
-                  placeholder="What happened on this day?"
-                  rows="15"
-                  cols="60"
-                  >{{ request.form['info'] }}</textarea>
+        <textarea name="info" placeholder="What happened on this day?" rows="15" cols="60"> {{ request.form['info'] }} </textarea>
         <br>
         <br>
         <label for="source">Source</label>
         <br>
-        <input type="text" name="source"
-               placeholder="URL"
-               value="{{ request.form['source'] }}">
+        <input type="text" name="source" placeholder="URL" value="{{ request.form['source'] }}">
         </input>
         <br>
         <br>
