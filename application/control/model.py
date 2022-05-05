@@ -1,3 +1,5 @@
+# Aku Pasanen 5.5.2022
+# Tietokannan eri taulujen alustaminen
 from application.control.extentions import db
 
 # Muistiinpano: kuinka luoda database contextilla

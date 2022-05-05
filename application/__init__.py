@@ -1,3 +1,5 @@
+# Aku Pasanen 5.5.2022
+# Tiedostossa alustetaan sovelluksen tärkein toiminnallisuus; tietokanta ja käynnistetään scheduler-prosessi joka hakee tiedot ajallaan.
 from multiprocessing import dummy
 from re import DEBUG
 from flask import Flask
@@ -9,6 +11,7 @@ from .control.trends import add_additional_info
 import os
 import json
 
+# flaskin "application factory"
 def create_app():
 
     app = Flask(__name__)

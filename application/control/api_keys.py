@@ -1,3 +1,5 @@
+# Aku Pasanen 5.5.2022
+# Tässä tiedostossa eri metodit API-avainten käsittelyyn.
 import json
 import os
 

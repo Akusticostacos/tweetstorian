@@ -2,6 +2,8 @@
 import sys
 import site
 
+# Tämä on sovelluksen wsgi-tiedosto joka mahdollistaa sen ajamisen Apache-palvelimella
+
 site.addsitedir("/var/www/TIEA306_ohjelmointityo/venv/lib/python3.6/site-packages")
 
 sys.path.insert(0, '/var/www/TIEA306_ohjelmointityo')

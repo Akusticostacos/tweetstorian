@@ -1,3 +1,5 @@
+# Aku Pasanen 5.5.2022
+# Tiedostossa toteutetaan sovelluksen pääsivun toiminnallisuus
 from flask import render_template, Blueprint, request
 from datetime import date
 from application.control.api_keys import load_bearer_token

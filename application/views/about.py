@@ -1,3 +1,5 @@
+# Aku Pasanen 5.5.2022
+# Tiedostossa toteutetaan sovelluksen about-sivun toiminnallisuus
 from flask import app, Flask, render_template, Blueprint
 import requests, json
 

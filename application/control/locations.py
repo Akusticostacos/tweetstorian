@@ -1,3 +1,5 @@
+# Aku Pasanen 5.5.2022
+# Tässä tiedostossa haetaan Twitterin apista lokaatiot tekstitiedostoon.
 import requests
 from application.control.api_keys import load_bearer_token
 import os

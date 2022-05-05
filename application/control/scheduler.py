@@ -1,3 +1,5 @@
+# Aku Pasanen 5.5.2022
+# Sovelluksen tärkeimmän ominaisuuden toteutus; scheduler joka hakee trendaustiedot ajallaan
 from requests.api import get
 from application.control.trends import get_trends, add_trends
 from apscheduler.schedulers.background import BackgroundScheduler

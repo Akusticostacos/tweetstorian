@@ -1,3 +1,5 @@
+# Aku Pasanen 5.5.2022
+# Tiedostossa toteutetaan sovelluksen admin-sivun toiminnallisuus
 from flask import app, Flask, render_template, Blueprint, request, redirect, url_for
 import requests, json
 from application.control.model import additional_info

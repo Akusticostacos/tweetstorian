@@ -1,3 +1,5 @@
+# Aku Pasanen 5.5.2022
+# Tiedostossa metodit tietojen hakemistoon API:sta, sekä tietokantametodit.
 from application.control.api_keys import load_bearer_token
 import requests
 from datetime import date
