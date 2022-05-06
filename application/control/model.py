@@ -27,7 +27,10 @@ class trending_data(db.Model):
 class additional_info(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
+    # vapaateksti
     additional_info_string = db.Column(db.String(500))
+    # lähteiden URL
     sources_url_string = db.Column(db.String(500))
+    # päivän id
     trending_data_id = db.Column(db.Integer, db.ForeignKey('trending_data.id'),
         nullable=False)
