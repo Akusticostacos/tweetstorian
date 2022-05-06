@@ -1,5 +1,6 @@
 # Aku Pasanen 5.5.2022
 # Tässä tiedostossa haetaan Twitterin apista lokaatiot tekstitiedostoon.
+import re
 import requests
 from application.control.api_keys import load_bearer_token
 import os
@@ -15,4 +16,10 @@ def get_locations():
     response = requests.get("https://api.twitter.com/1.1/trends/available.json", headers= {"Authorization": f'Bearer {bearer_token}'})
 
     with open(locations_path, 'w', encoding="utf-8") as f:
-        f.write(str(response.json()))
+        for place in response.json():
+
+            name = place.get("name")
+            country = place.get("country")
+            woeid = place.get("woeid")
+            line = (str(name) + " " + str(country) + " " + str(woeid) + "\n")
+            f.write(line)
