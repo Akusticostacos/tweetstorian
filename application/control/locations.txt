@@ -1,467 +1,467 @@
-Worldwide  1
-Winnipeg Canada 2972
-Ottawa Canada 3369
-Quebec Canada 3444
-Montreal Canada 3534
-Toronto Canada 4118
-Edmonton Canada 8676
-Calgary Canada 8775
-Vancouver Canada 9807
-Birmingham United Kingdom 12723
-Blackpool United Kingdom 12903
-Bournemouth United Kingdom 13383
-Brighton United Kingdom 13911
-Bristol United Kingdom 13963
-Cardiff United Kingdom 15127
-Coventry United Kingdom 17044
-Derby United Kingdom 18114
-Edinburgh United Kingdom 19344
-Glasgow United Kingdom 21125
-Hull United Kingdom 25211
-Leeds United Kingdom 26042
-Leicester United Kingdom 26062
-Liverpool United Kingdom 26734
-Manchester United Kingdom 28218
-Middlesbrough United Kingdom 28869
-Newcastle United Kingdom 30079
-Nottingham United Kingdom 30720
-Plymouth United Kingdom 32185
-Portsmouth United Kingdom 32452
-Preston United Kingdom 32566
-Sheffield United Kingdom 34503
-Stoke-on-Trent United Kingdom 36240
-Swansea United Kingdom 36758
-London United Kingdom 44418
-Belfast United Kingdom 44544
-Santo Domingo Dominican Republic 76456
-Guatemala City Guatemala 83123
-Acapulco Mexico 110978
-Aguascalientes Mexico 111579
-Chihuahua Mexico 115958
-Mexico City Mexico 116545
-Ciudad Juarez Mexico 116556
-Nezahualcóyotl Mexico 116564
-Culiacán Mexico 117994
-Ecatepec de Morelos Mexico 118466
-Guadalajara Mexico 124162
-Hermosillo Mexico 124785
-León Mexico 131068
-Mérida Mexico 133327
-Mexicali Mexico 133475
-Monterrey Mexico 134047
-Morelia Mexico 134091
-Naucalpan de Juárez Mexico 134395
-Puebla Mexico 137612
-Querétaro Mexico 138045
-Saltillo Mexico 141272
-San Luis Potosí Mexico 144265
-Tijuana Mexico 149361
-Toluca Mexico 149769
-Zapopan Mexico 151582
-Mendoza Argentina 332471
-Santiago Chile 349859
-Concepcion Chile 349860
-Valparaiso Chile 349861
-Bogotá Colombia 368148
-Cali Colombia 368149
-Medellín Colombia 368150
-Barranquilla Colombia 368151
-Quito Ecuador 375732
-Guayaquil Ecuador 375733
-Caracas Venezuela 395269
-Maracaibo Venezuela 395270
-Maracay Venezuela 395271
-Valencia Venezuela 395272
-Barcelona Venezuela 395273
-Ciudad Guayana Venezuela 395275
-Turmero Venezuela 395277
-Lima Peru 418440
-Brasília Brazil 455819
-Belém Brazil 455820
-Belo Horizonte Brazil 455821
-Curitiba Brazil 455822
-Porto Alegre Brazil 455823
-Recife Brazil 455824
-Rio de Janeiro Brazil 455825
-Salvador Brazil 455826
-São Paulo Brazil 455827
-Campinas Brazil 455828
-Fortaleza Brazil 455830
-Goiânia Brazil 455831
-Manaus Brazil 455833
-São Luís Brazil 455834
-Guarulhos Brazil 455867
-Córdoba Argentina 466861
-Rosario Argentina 466862
-Barquisimeto Venezuela 468382
-Maturín Venezuela 468384
-Buenos Aires Argentina 468739
-Gdańsk Poland 493417
-Kraków Poland 502075
-Lodz Poland 505120
-Poznań Poland 514048
-Warsaw Poland 523920
-Wroclaw Poland 526363
-Vienna Austria 551801
-Cork Ireland 560472
-Dublin Ireland 560743
-Galway Ireland 560912
-Bordeaux France 580778
-Lille France 608105
-Lyon France 609125
-Marseille France 610264
-Montpellier France 612977
-Nantes France 613858
-Paris France 615702
-Rennes France 619163
-Strasbourg France 627791
-Toulouse France 628886
-Berlin Germany 638242
-Bremen Germany 641142
-Dortmund Germany 645458
-Dresden Germany 645686
-Dusseldorf Germany 646099
-Essen Germany 648820
-Frankfurt Germany 650272
-Hamburg Germany 656958
-Cologne Germany 667931
-Leipzig Germany 671072
-Munich Germany 676757
-Stuttgart Germany 698064
-Bologna Italy 711080
-Genoa Italy 716085
-Milan Italy 718345
-Naples Italy 719258
-Palermo Italy 719846
-Rome Italy 721943
-Turin Italy 725003
-Den Haag Netherlands 726874
-Amsterdam Netherlands 727232
-Rotterdam Netherlands 733075
-Utrecht Netherlands 734047
-Barcelona Spain 753692
-Bilbao Spain 754542
-Las Palmas Spain 764814
-Madrid Spain 766273
-Malaga Spain 766356
-Murcia Spain 768026
-Palma Spain 769293
-Seville Spain 774508
-Valencia Spain 776688
-Zaragoza Spain 779063
-Geneva Switzerland 782538
-Lausanne Switzerland 783058
-Zurich Switzerland 784794
-Brest Belarus 824382
-Grodno Belarus 825848
-Gomel Belarus 825978
-Minsk Belarus 834463
-Riga Latvia 854823
-Bergen Norway 857105
-Oslo Norway 862592
-Gothenburg Sweden 890869
-Stockholm Sweden 906057
-Dnipropetrovsk Ukraine 918981
-Donetsk Ukraine 919163
-Kharkiv Ukraine 922137
-Kyiv Ukraine 924938
-Lviv Ukraine 924943
-Odesa Ukraine 929398
-Zaporozhye Ukraine 939628
-Athens Greece 946738
-Thessaloniki Greece 963291
-Bekasi Indonesia 1030077
-Depok Indonesia 1032539
-Pekanbaru Indonesia 1040779
-Surabaya Indonesia 1044316
-Makassar Indonesia 1046138
-Bandung Indonesia 1047180
-Jakarta Indonesia 1047378
-Medan Indonesia 1047908
-Palembang Indonesia 1048059
-Semarang Indonesia 1048324
-Tangerang Indonesia 1048536
-Singapore Singapore 1062617
-Perth Australia 1098081
-Adelaide Australia 1099805
-Brisbane Australia 1100661
-Canberra Australia 1100968
-Darwin Australia 1101597
-Melbourne Australia 1103816
-Sydney Australia 1105779
-Kitakyushu Japan 1110809
-Saitama Japan 1116753
-Chiba Japan 1117034
-Fukuoka Japan 1117099
-Hamamatsu Japan 1117155
-Hiroshima Japan 1117227
-Kawasaki Japan 1117502
-Kobe Japan 1117545
-Kumamoto Japan 1117605
-Nagoya Japan 1117817
-Niigata Japan 1117881
-Sagamihara Japan 1118072
-Sapporo Japan 1118108
-Sendai Japan 1118129
-Takamatsu Japan 1118285
-Tokyo Japan 1118370
-Yokohama Japan 1118550
-Goyang Korea 1130853
-Yongin Korea 1132094
-Ansan Korea 1132444
-Bucheon Korea 1132445
-Busan Korea 1132447
-Changwon Korea 1132449
-Daegu Korea 1132466
-Gwangju Korea 1132481
-Incheon Korea 1132496
-Seongnam Korea 1132559
-Suwon Korea 1132567
-Ulsan Korea 1132578
-Seoul Korea 1132599
-Kajang Malaysia 1141268
-Ipoh Malaysia 1154679
-Johor Bahru Malaysia 1154698
-Klang Malaysia 1154726
-Kuala Lumpur Malaysia 1154781
-Calocan Philippines 1167715
-Makati Philippines 1180689
-Pasig Philippines 1187115
-Taguig Philippines 1195098
-Antipolo Philippines 1198785
-Cagayan de Oro Philippines 1199002
-Cebu City Philippines 1199079
-Davao City Philippines 1199136
-Manila Philippines 1199477
-Quezon City Philippines 1199682
-Zamboanga City Philippines 1199980
-Bangkok Thailand 1225448
-Hanoi Vietnam 1236594
-Hai Phong Vietnam 1236690
-Can Tho Vietnam 1252351
-Da Nang Vietnam 1252376
-Ho Chi Minh City Vietnam 1252431
-Algiers Algeria 1253079
-Accra Ghana 1326075
-Kumasi Ghana 1330595
-Benin City Nigeria 1387660
-Ibadan Nigeria 1393672
-Kaduna Nigeria 1396439
-Kano Nigeria 1396803
-Lagos Nigeria 1398823
-Port Harcourt Nigeria 1404447
-Giza Egypt 1521643
-Cairo Egypt 1521894
-Alexandria Egypt 1522006
-Mombasa Kenya 1528335
-Nairobi Kenya 1528488
-Durban South Africa 1580913
-Johannesburg South Africa 1582504
-Port Elizabeth South Africa 1586614
-Pretoria South Africa 1586638
-Soweto South Africa 1587677
-Cape Town South Africa 1591691
-Medina Saudi Arabia 1937801
-Dammam Saudi Arabia 1939574
-Riyadh Saudi Arabia 1939753
-Jeddah Saudi Arabia 1939873
-Mecca Saudi Arabia 1939897
-Sharjah United Arab Emirates 1940119
-Abu Dhabi United Arab Emirates 1940330
-Dubai United Arab Emirates 1940345
-Haifa Israel 1967449
-Tel Aviv Israel 1968212
-Jerusalem Israel 1968222
-Amman Jordan 1968902
-Chelyabinsk Russia 1997422
-Khabarovsk Russia 2018708
-Krasnodar Russia 2028717
-Krasnoyarsk Russia 2029043
-Samara Russia 2077746
-Voronezh Russia 2108210
-Yekaterinburg Russia 2112237
-Irkutsk Russia 2121040
-Kazan Russia 2121267
-Moscow Russia 2122265
-Nizhny Novgorod Russia 2122471
-Novosibirsk Russia 2122541
-Omsk Russia 2122641
-Perm Russia 2122814
-Rostov-on-Don Russia 2123177
-Saint Petersburg Russia 2123260
-Ufa Russia 2124045
-Vladivostok Russia 2124288
-Volgograd Russia 2124298
-Karachi Pakistan 2211096
-Lahore Pakistan 2211177
-Multan Pakistan 2211269
-Rawalpindi Pakistan 2211387
-Faisalabad Pakistan 2211574
-Muscat Oman 2268284
-Nagpur India 2282863
-Lucknow India 2295377
-Kanpur India 2295378
-Patna India 2295381
-Ranchi India 2295383
-Kolkata India 2295386
-Srinagar India 2295387
-Amritsar India 2295388
-Jaipur India 2295401
-Ahmedabad India 2295402
-Rajkot India 2295404
-Surat India 2295405
-Bhopal India 2295407
-Indore India 2295408
-Thane India 2295410
-Mumbai India 2295411
-Pune India 2295412
-Hyderabad India 2295414
-Bangalore India 2295420
-Chennai India 2295424
-Mersin Turkey 2323778
-Adana Turkey 2343678
-Ankara Turkey 2343732
-Antalya Turkey 2343733
-Bursa Turkey 2343843
-Diyarbakır Turkey 2343932
-Eskişehir Turkey 2343980
-Gaziantep Turkey 2343999
-Istanbul Turkey 2344116
-Izmir Turkey 2344117
-Kayseri Turkey 2344174
-Konya Turkey 2344210
-Okinawa Japan 2345896
-Daejeon Korea 2345975
-Auckland New Zealand 2348079
-Albuquerque United States 2352824
-Atlanta United States 2357024
-Austin United States 2357536
-Baltimore United States 2358820
-Baton Rouge United States 2359991
-Birmingham United States 2364559
-Boston United States 2367105
-Charlotte United States 2378426
-Chicago United States 2379574
-Cincinnati United States 2380358
-Cleveland United States 2381475
-Colorado Springs United States 2383489
-Columbus United States 2383660
-Dallas-Ft. Worth United States 2388929
-Denver United States 2391279
-Detroit United States 2391585
-El Paso United States 2397816
-Fresno United States 2407517
-Greensboro United States 2414469
-Harrisburg United States 2418046
-Honolulu United States 2423945
-Houston United States 2424766
-Indianapolis United States 2427032
-Jackson United States 2428184
-Jacksonville United States 2428344
-Kansas City United States 2430683
-Las Vegas United States 2436704
-Long Beach United States 2441472
-Los Angeles United States 2442047
-Louisville United States 2442327
-Memphis United States 2449323
-Mesa United States 2449808
-Miami United States 2450022
-Milwaukee United States 2451822
-Minneapolis United States 2452078
-Nashville United States 2457170
-New Haven United States 2458410
-New Orleans United States 2458833
-New York United States 2459115
-Norfolk United States 2460389
-Oklahoma City United States 2464592
-Omaha United States 2465512
-Orlando United States 2466256
-Philadelphia United States 2471217
-Phoenix United States 2471390
-Pittsburgh United States 2473224
-Portland United States 2475687
-Providence United States 2477058
-Raleigh United States 2478307
-Richmond United States 2480894
-Sacramento United States 2486340
-St. Louis United States 2486982
-Salt Lake City United States 2487610
-San Antonio United States 2487796
-San Diego United States 2487889
-San Francisco United States 2487956
-San Jose United States 2488042
-Seattle United States 2490383
-Tallahassee United States 2503713
-Tampa United States 2503863
-Tucson United States 2508428
-Virginia Beach United States 2512636
-Washington United States 2514815
-Osaka Japan 15015370
-Kyoto Japan 15015372
-Delhi India 20070458
-United Arab Emirates United Arab Emirates 23424738
-Algeria Algeria 23424740
-Argentina Argentina 23424747
-Australia Australia 23424748
-Austria Austria 23424750
-Bahrain Bahrain 23424753
-Belgium Belgium 23424757
-Belarus Belarus 23424765
-Brazil Brazil 23424768
-Canada Canada 23424775
-Chile Chile 23424782
-Colombia Colombia 23424787
-Denmark Denmark 23424796
-Dominican Republic Dominican Republic 23424800
-Ecuador Ecuador 23424801
-Egypt Egypt 23424802
-Ireland Ireland 23424803
-France France 23424819
-Ghana Ghana 23424824
-Germany Germany 23424829
-Greece Greece 23424833
-Guatemala Guatemala 23424834
-Indonesia Indonesia 23424846
-India India 23424848
-Israel Israel 23424852
-Italy Italy 23424853
-Japan Japan 23424856
-Jordan Jordan 23424860
-Kenya Kenya 23424863
-Korea Korea 23424868
-Kuwait Kuwait 23424870
-Lebanon Lebanon 23424873
-Latvia Latvia 23424874
-Oman Oman 23424898
-Mexico Mexico 23424900
-Malaysia Malaysia 23424901
-Nigeria Nigeria 23424908
-Netherlands Netherlands 23424909
-Norway Norway 23424910
-New Zealand New Zealand 23424916
-Peru Peru 23424919
-Pakistan Pakistan 23424922
-Poland Poland 23424923
-Panama Panama 23424924
-Portugal Portugal 23424925
-Qatar Qatar 23424930
-Philippines Philippines 23424934
-Puerto Rico Puerto Rico 23424935
-Russia Russia 23424936
-Saudi Arabia Saudi Arabia 23424938
-South Africa South Africa 23424942
-Singapore Singapore 23424948
-Spain Spain 23424950
-Sweden Sweden 23424954
-Switzerland Switzerland 23424957
-Thailand Thailand 23424960
-Turkey Turkey 23424969
-United Kingdom United Kingdom 23424975
-Ukraine Ukraine 23424976
-United States United States 23424977
-Venezuela Venezuela 23424982
-Vietnam Vietnam 23424984
-Petaling Malaysia 56013632
-Hulu Langat Malaysia 56013645
-Ahsa Saudi Arabia 56120136
-Okayama Japan 90036018
+Name: Worldwide Country:  Woeid: 1
+Name: Winnipeg Country: Canada Woeid: 2972
+Name: Ottawa Country: Canada Woeid: 3369
+Name: Quebec Country: Canada Woeid: 3444
+Name: Montreal Country: Canada Woeid: 3534
+Name: Toronto Country: Canada Woeid: 4118
+Name: Edmonton Country: Canada Woeid: 8676
+Name: Calgary Country: Canada Woeid: 8775
+Name: Vancouver Country: Canada Woeid: 9807
+Name: Birmingham Country: United Kingdom Woeid: 12723
+Name: Blackpool Country: United Kingdom Woeid: 12903
+Name: Bournemouth Country: United Kingdom Woeid: 13383
+Name: Brighton Country: United Kingdom Woeid: 13911
+Name: Bristol Country: United Kingdom Woeid: 13963
+Name: Cardiff Country: United Kingdom Woeid: 15127
+Name: Coventry Country: United Kingdom Woeid: 17044
+Name: Derby Country: United Kingdom Woeid: 18114
+Name: Edinburgh Country: United Kingdom Woeid: 19344
+Name: Glasgow Country: United Kingdom Woeid: 21125
+Name: Hull Country: United Kingdom Woeid: 25211
+Name: Leeds Country: United Kingdom Woeid: 26042
+Name: Leicester Country: United Kingdom Woeid: 26062
+Name: Liverpool Country: United Kingdom Woeid: 26734
+Name: Manchester Country: United Kingdom Woeid: 28218
+Name: Middlesbrough Country: United Kingdom Woeid: 28869
+Name: Newcastle Country: United Kingdom Woeid: 30079
+Name: Nottingham Country: United Kingdom Woeid: 30720
+Name: Plymouth Country: United Kingdom Woeid: 32185
+Name: Portsmouth Country: United Kingdom Woeid: 32452
+Name: Preston Country: United Kingdom Woeid: 32566
+Name: Sheffield Country: United Kingdom Woeid: 34503
+Name: Stoke-on-Trent Country: United Kingdom Woeid: 36240
+Name: Swansea Country: United Kingdom Woeid: 36758
+Name: London Country: United Kingdom Woeid: 44418
+Name: Belfast Country: United Kingdom Woeid: 44544
+Name: Santo Domingo Country: Dominican Republic Woeid: 76456
+Name: Guatemala City Country: Guatemala Woeid: 83123
+Name: Acapulco Country: Mexico Woeid: 110978
+Name: Aguascalientes Country: Mexico Woeid: 111579
+Name: Chihuahua Country: Mexico Woeid: 115958
+Name: Mexico City Country: Mexico Woeid: 116545
+Name: Ciudad Juarez Country: Mexico Woeid: 116556
+Name: Nezahualcóyotl Country: Mexico Woeid: 116564
+Name: Culiacán Country: Mexico Woeid: 117994
+Name: Ecatepec de Morelos Country: Mexico Woeid: 118466
+Name: Guadalajara Country: Mexico Woeid: 124162
+Name: Hermosillo Country: Mexico Woeid: 124785
+Name: León Country: Mexico Woeid: 131068
+Name: Mérida Country: Mexico Woeid: 133327
+Name: Mexicali Country: Mexico Woeid: 133475
+Name: Monterrey Country: Mexico Woeid: 134047
+Name: Morelia Country: Mexico Woeid: 134091
+Name: Naucalpan de Juárez Country: Mexico Woeid: 134395
+Name: Puebla Country: Mexico Woeid: 137612
+Name: Querétaro Country: Mexico Woeid: 138045
+Name: Saltillo Country: Mexico Woeid: 141272
+Name: San Luis Potosí Country: Mexico Woeid: 144265
+Name: Tijuana Country: Mexico Woeid: 149361
+Name: Toluca Country: Mexico Woeid: 149769
+Name: Zapopan Country: Mexico Woeid: 151582
+Name: Mendoza Country: Argentina Woeid: 332471
+Name: Santiago Country: Chile Woeid: 349859
+Name: Concepcion Country: Chile Woeid: 349860
+Name: Valparaiso Country: Chile Woeid: 349861
+Name: Bogotá Country: Colombia Woeid: 368148
+Name: Cali Country: Colombia Woeid: 368149
+Name: Medellín Country: Colombia Woeid: 368150
+Name: Barranquilla Country: Colombia Woeid: 368151
+Name: Quito Country: Ecuador Woeid: 375732
+Name: Guayaquil Country: Ecuador Woeid: 375733
+Name: Caracas Country: Venezuela Woeid: 395269
+Name: Maracaibo Country: Venezuela Woeid: 395270
+Name: Maracay Country: Venezuela Woeid: 395271
+Name: Valencia Country: Venezuela Woeid: 395272
+Name: Barcelona Country: Venezuela Woeid: 395273
+Name: Ciudad Guayana Country: Venezuela Woeid: 395275
+Name: Turmero Country: Venezuela Woeid: 395277
+Name: Lima Country: Peru Woeid: 418440
+Name: Brasília Country: Brazil Woeid: 455819
+Name: Belém Country: Brazil Woeid: 455820
+Name: Belo Horizonte Country: Brazil Woeid: 455821
+Name: Curitiba Country: Brazil Woeid: 455822
+Name: Porto Alegre Country: Brazil Woeid: 455823
+Name: Recife Country: Brazil Woeid: 455824
+Name: Rio de Janeiro Country: Brazil Woeid: 455825
+Name: Salvador Country: Brazil Woeid: 455826
+Name: São Paulo Country: Brazil Woeid: 455827
+Name: Campinas Country: Brazil Woeid: 455828
+Name: Fortaleza Country: Brazil Woeid: 455830
+Name: Goiânia Country: Brazil Woeid: 455831
+Name: Manaus Country: Brazil Woeid: 455833
+Name: São Luís Country: Brazil Woeid: 455834
+Name: Guarulhos Country: Brazil Woeid: 455867
+Name: Córdoba Country: Argentina Woeid: 466861
+Name: Rosario Country: Argentina Woeid: 466862
+Name: Barquisimeto Country: Venezuela Woeid: 468382
+Name: Maturín Country: Venezuela Woeid: 468384
+Name: Buenos Aires Country: Argentina Woeid: 468739
+Name: Gdańsk Country: Poland Woeid: 493417
+Name: Kraków Country: Poland Woeid: 502075
+Name: Lodz Country: Poland Woeid: 505120
+Name: Poznań Country: Poland Woeid: 514048
+Name: Warsaw Country: Poland Woeid: 523920
+Name: Wroclaw Country: Poland Woeid: 526363
+Name: Vienna Country: Austria Woeid: 551801
+Name: Cork Country: Ireland Woeid: 560472
+Name: Dublin Country: Ireland Woeid: 560743
+Name: Galway Country: Ireland Woeid: 560912
+Name: Bordeaux Country: France Woeid: 580778
+Name: Lille Country: France Woeid: 608105
+Name: Lyon Country: France Woeid: 609125
+Name: Marseille Country: France Woeid: 610264
+Name: Montpellier Country: France Woeid: 612977
+Name: Nantes Country: France Woeid: 613858
+Name: Paris Country: France Woeid: 615702
+Name: Rennes Country: France Woeid: 619163
+Name: Strasbourg Country: France Woeid: 627791
+Name: Toulouse Country: France Woeid: 628886
+Name: Berlin Country: Germany Woeid: 638242
+Name: Bremen Country: Germany Woeid: 641142
+Name: Dortmund Country: Germany Woeid: 645458
+Name: Dresden Country: Germany Woeid: 645686
+Name: Dusseldorf Country: Germany Woeid: 646099
+Name: Essen Country: Germany Woeid: 648820
+Name: Frankfurt Country: Germany Woeid: 650272
+Name: Hamburg Country: Germany Woeid: 656958
+Name: Cologne Country: Germany Woeid: 667931
+Name: Leipzig Country: Germany Woeid: 671072
+Name: Munich Country: Germany Woeid: 676757
+Name: Stuttgart Country: Germany Woeid: 698064
+Name: Bologna Country: Italy Woeid: 711080
+Name: Genoa Country: Italy Woeid: 716085
+Name: Milan Country: Italy Woeid: 718345
+Name: Naples Country: Italy Woeid: 719258
+Name: Palermo Country: Italy Woeid: 719846
+Name: Rome Country: Italy Woeid: 721943
+Name: Turin Country: Italy Woeid: 725003
+Name: Den Haag Country: Netherlands Woeid: 726874
+Name: Amsterdam Country: Netherlands Woeid: 727232
+Name: Rotterdam Country: Netherlands Woeid: 733075
+Name: Utrecht Country: Netherlands Woeid: 734047
+Name: Barcelona Country: Spain Woeid: 753692
+Name: Bilbao Country: Spain Woeid: 754542
+Name: Las Palmas Country: Spain Woeid: 764814
+Name: Madrid Country: Spain Woeid: 766273
+Name: Malaga Country: Spain Woeid: 766356
+Name: Murcia Country: Spain Woeid: 768026
+Name: Palma Country: Spain Woeid: 769293
+Name: Seville Country: Spain Woeid: 774508
+Name: Valencia Country: Spain Woeid: 776688
+Name: Zaragoza Country: Spain Woeid: 779063
+Name: Geneva Country: Switzerland Woeid: 782538
+Name: Lausanne Country: Switzerland Woeid: 783058
+Name: Zurich Country: Switzerland Woeid: 784794
+Name: Brest Country: Belarus Woeid: 824382
+Name: Grodno Country: Belarus Woeid: 825848
+Name: Gomel Country: Belarus Woeid: 825978
+Name: Minsk Country: Belarus Woeid: 834463
+Name: Riga Country: Latvia Woeid: 854823
+Name: Bergen Country: Norway Woeid: 857105
+Name: Oslo Country: Norway Woeid: 862592
+Name: Gothenburg Country: Sweden Woeid: 890869
+Name: Stockholm Country: Sweden Woeid: 906057
+Name: Dnipropetrovsk Country: Ukraine Woeid: 918981
+Name: Donetsk Country: Ukraine Woeid: 919163
+Name: Kharkiv Country: Ukraine Woeid: 922137
+Name: Kyiv Country: Ukraine Woeid: 924938
+Name: Lviv Country: Ukraine Woeid: 924943
+Name: Odesa Country: Ukraine Woeid: 929398
+Name: Zaporozhye Country: Ukraine Woeid: 939628
+Name: Athens Country: Greece Woeid: 946738
+Name: Thessaloniki Country: Greece Woeid: 963291
+Name: Bekasi Country: Indonesia Woeid: 1030077
+Name: Depok Country: Indonesia Woeid: 1032539
+Name: Pekanbaru Country: Indonesia Woeid: 1040779
+Name: Surabaya Country: Indonesia Woeid: 1044316
+Name: Makassar Country: Indonesia Woeid: 1046138
+Name: Bandung Country: Indonesia Woeid: 1047180
+Name: Jakarta Country: Indonesia Woeid: 1047378
+Name: Medan Country: Indonesia Woeid: 1047908
+Name: Palembang Country: Indonesia Woeid: 1048059
+Name: Semarang Country: Indonesia Woeid: 1048324
+Name: Tangerang Country: Indonesia Woeid: 1048536
+Name: Singapore Country: Singapore Woeid: 1062617
+Name: Perth Country: Australia Woeid: 1098081
+Name: Adelaide Country: Australia Woeid: 1099805
+Name: Brisbane Country: Australia Woeid: 1100661
+Name: Canberra Country: Australia Woeid: 1100968
+Name: Darwin Country: Australia Woeid: 1101597
+Name: Melbourne Country: Australia Woeid: 1103816
+Name: Sydney Country: Australia Woeid: 1105779
+Name: Kitakyushu Country: Japan Woeid: 1110809
+Name: Saitama Country: Japan Woeid: 1116753
+Name: Chiba Country: Japan Woeid: 1117034
+Name: Fukuoka Country: Japan Woeid: 1117099
+Name: Hamamatsu Country: Japan Woeid: 1117155
+Name: Hiroshima Country: Japan Woeid: 1117227
+Name: Kawasaki Country: Japan Woeid: 1117502
+Name: Kobe Country: Japan Woeid: 1117545
+Name: Kumamoto Country: Japan Woeid: 1117605
+Name: Nagoya Country: Japan Woeid: 1117817
+Name: Niigata Country: Japan Woeid: 1117881
+Name: Sagamihara Country: Japan Woeid: 1118072
+Name: Sapporo Country: Japan Woeid: 1118108
+Name: Sendai Country: Japan Woeid: 1118129
+Name: Takamatsu Country: Japan Woeid: 1118285
+Name: Tokyo Country: Japan Woeid: 1118370
+Name: Yokohama Country: Japan Woeid: 1118550
+Name: Goyang Country: Korea Woeid: 1130853
+Name: Yongin Country: Korea Woeid: 1132094
+Name: Ansan Country: Korea Woeid: 1132444
+Name: Bucheon Country: Korea Woeid: 1132445
+Name: Busan Country: Korea Woeid: 1132447
+Name: Changwon Country: Korea Woeid: 1132449
+Name: Daegu Country: Korea Woeid: 1132466
+Name: Gwangju Country: Korea Woeid: 1132481
+Name: Incheon Country: Korea Woeid: 1132496
+Name: Seongnam Country: Korea Woeid: 1132559
+Name: Suwon Country: Korea Woeid: 1132567
+Name: Ulsan Country: Korea Woeid: 1132578
+Name: Seoul Country: Korea Woeid: 1132599
+Name: Kajang Country: Malaysia Woeid: 1141268
+Name: Ipoh Country: Malaysia Woeid: 1154679
+Name: Johor Bahru Country: Malaysia Woeid: 1154698
+Name: Klang Country: Malaysia Woeid: 1154726
+Name: Kuala Lumpur Country: Malaysia Woeid: 1154781
+Name: Calocan Country: Philippines Woeid: 1167715
+Name: Makati Country: Philippines Woeid: 1180689
+Name: Pasig Country: Philippines Woeid: 1187115
+Name: Taguig Country: Philippines Woeid: 1195098
+Name: Antipolo Country: Philippines Woeid: 1198785
+Name: Cagayan de Oro Country: Philippines Woeid: 1199002
+Name: Cebu City Country: Philippines Woeid: 1199079
+Name: Davao City Country: Philippines Woeid: 1199136
+Name: Manila Country: Philippines Woeid: 1199477
+Name: Quezon City Country: Philippines Woeid: 1199682
+Name: Zamboanga City Country: Philippines Woeid: 1199980
+Name: Bangkok Country: Thailand Woeid: 1225448
+Name: Hanoi Country: Vietnam Woeid: 1236594
+Name: Hai Phong Country: Vietnam Woeid: 1236690
+Name: Can Tho Country: Vietnam Woeid: 1252351
+Name: Da Nang Country: Vietnam Woeid: 1252376
+Name: Ho Chi Minh City Country: Vietnam Woeid: 1252431
+Name: Algiers Country: Algeria Woeid: 1253079
+Name: Accra Country: Ghana Woeid: 1326075
+Name: Kumasi Country: Ghana Woeid: 1330595
+Name: Benin City Country: Nigeria Woeid: 1387660
+Name: Ibadan Country: Nigeria Woeid: 1393672
+Name: Kaduna Country: Nigeria Woeid: 1396439
+Name: Kano Country: Nigeria Woeid: 1396803
+Name: Lagos Country: Nigeria Woeid: 1398823
+Name: Port Harcourt Country: Nigeria Woeid: 1404447
+Name: Giza Country: Egypt Woeid: 1521643
+Name: Cairo Country: Egypt Woeid: 1521894
+Name: Alexandria Country: Egypt Woeid: 1522006
+Name: Mombasa Country: Kenya Woeid: 1528335
+Name: Nairobi Country: Kenya Woeid: 1528488
+Name: Durban Country: South Africa Woeid: 1580913
+Name: Johannesburg Country: South Africa Woeid: 1582504
+Name: Port Elizabeth Country: South Africa Woeid: 1586614
+Name: Pretoria Country: South Africa Woeid: 1586638
+Name: Soweto Country: South Africa Woeid: 1587677
+Name: Cape Town Country: South Africa Woeid: 1591691
+Name: Medina Country: Saudi Arabia Woeid: 1937801
+Name: Dammam Country: Saudi Arabia Woeid: 1939574
+Name: Riyadh Country: Saudi Arabia Woeid: 1939753
+Name: Jeddah Country: Saudi Arabia Woeid: 1939873
+Name: Mecca Country: Saudi Arabia Woeid: 1939897
+Name: Sharjah Country: United Arab Emirates Woeid: 1940119
+Name: Abu Dhabi Country: United Arab Emirates Woeid: 1940330
+Name: Dubai Country: United Arab Emirates Woeid: 1940345
+Name: Haifa Country: Israel Woeid: 1967449
+Name: Tel Aviv Country: Israel Woeid: 1968212
+Name: Jerusalem Country: Israel Woeid: 1968222
+Name: Amman Country: Jordan Woeid: 1968902
+Name: Chelyabinsk Country: Russia Woeid: 1997422
+Name: Khabarovsk Country: Russia Woeid: 2018708
+Name: Krasnodar Country: Russia Woeid: 2028717
+Name: Krasnoyarsk Country: Russia Woeid: 2029043
+Name: Samara Country: Russia Woeid: 2077746
+Name: Voronezh Country: Russia Woeid: 2108210
+Name: Yekaterinburg Country: Russia Woeid: 2112237
+Name: Irkutsk Country: Russia Woeid: 2121040
+Name: Kazan Country: Russia Woeid: 2121267
+Name: Moscow Country: Russia Woeid: 2122265
+Name: Nizhny Novgorod Country: Russia Woeid: 2122471
+Name: Novosibirsk Country: Russia Woeid: 2122541
+Name: Omsk Country: Russia Woeid: 2122641
+Name: Perm Country: Russia Woeid: 2122814
+Name: Rostov-on-Don Country: Russia Woeid: 2123177
+Name: Saint Petersburg Country: Russia Woeid: 2123260
+Name: Ufa Country: Russia Woeid: 2124045
+Name: Vladivostok Country: Russia Woeid: 2124288
+Name: Volgograd Country: Russia Woeid: 2124298
+Name: Karachi Country: Pakistan Woeid: 2211096
+Name: Lahore Country: Pakistan Woeid: 2211177
+Name: Multan Country: Pakistan Woeid: 2211269
+Name: Rawalpindi Country: Pakistan Woeid: 2211387
+Name: Faisalabad Country: Pakistan Woeid: 2211574
+Name: Muscat Country: Oman Woeid: 2268284
+Name: Nagpur Country: India Woeid: 2282863
+Name: Lucknow Country: India Woeid: 2295377
+Name: Kanpur Country: India Woeid: 2295378
+Name: Patna Country: India Woeid: 2295381
+Name: Ranchi Country: India Woeid: 2295383
+Name: Kolkata Country: India Woeid: 2295386
+Name: Srinagar Country: India Woeid: 2295387
+Name: Amritsar Country: India Woeid: 2295388
+Name: Jaipur Country: India Woeid: 2295401
+Name: Ahmedabad Country: India Woeid: 2295402
+Name: Rajkot Country: India Woeid: 2295404
+Name: Surat Country: India Woeid: 2295405
+Name: Bhopal Country: India Woeid: 2295407
+Name: Indore Country: India Woeid: 2295408
+Name: Thane Country: India Woeid: 2295410
+Name: Mumbai Country: India Woeid: 2295411
+Name: Pune Country: India Woeid: 2295412
+Name: Hyderabad Country: India Woeid: 2295414
+Name: Bangalore Country: India Woeid: 2295420
+Name: Chennai Country: India Woeid: 2295424
+Name: Mersin Country: Turkey Woeid: 2323778
+Name: Adana Country: Turkey Woeid: 2343678
+Name: Ankara Country: Turkey Woeid: 2343732
+Name: Antalya Country: Turkey Woeid: 2343733
+Name: Bursa Country: Turkey Woeid: 2343843
+Name: Diyarbakır Country: Turkey Woeid: 2343932
+Name: Eskişehir Country: Turkey Woeid: 2343980
+Name: Gaziantep Country: Turkey Woeid: 2343999
+Name: Istanbul Country: Turkey Woeid: 2344116
+Name: Izmir Country: Turkey Woeid: 2344117
+Name: Kayseri Country: Turkey Woeid: 2344174
+Name: Konya Country: Turkey Woeid: 2344210
+Name: Okinawa Country: Japan Woeid: 2345896
+Name: Daejeon Country: Korea Woeid: 2345975
+Name: Auckland Country: New Zealand Woeid: 2348079
+Name: Albuquerque Country: United States Woeid: 2352824
+Name: Atlanta Country: United States Woeid: 2357024
+Name: Austin Country: United States Woeid: 2357536
+Name: Baltimore Country: United States Woeid: 2358820
+Name: Baton Rouge Country: United States Woeid: 2359991
+Name: Birmingham Country: United States Woeid: 2364559
+Name: Boston Country: United States Woeid: 2367105
+Name: Charlotte Country: United States Woeid: 2378426
+Name: Chicago Country: United States Woeid: 2379574
+Name: Cincinnati Country: United States Woeid: 2380358
+Name: Cleveland Country: United States Woeid: 2381475
+Name: Colorado Springs Country: United States Woeid: 2383489
+Name: Columbus Country: United States Woeid: 2383660
+Name: Dallas-Ft. Worth Country: United States Woeid: 2388929
+Name: Denver Country: United States Woeid: 2391279
+Name: Detroit Country: United States Woeid: 2391585
+Name: El Paso Country: United States Woeid: 2397816
+Name: Fresno Country: United States Woeid: 2407517
+Name: Greensboro Country: United States Woeid: 2414469
+Name: Harrisburg Country: United States Woeid: 2418046
+Name: Honolulu Country: United States Woeid: 2423945
+Name: Houston Country: United States Woeid: 2424766
+Name: Indianapolis Country: United States Woeid: 2427032
+Name: Jackson Country: United States Woeid: 2428184
+Name: Jacksonville Country: United States Woeid: 2428344
+Name: Kansas City Country: United States Woeid: 2430683
+Name: Las Vegas Country: United States Woeid: 2436704
+Name: Long Beach Country: United States Woeid: 2441472
+Name: Los Angeles Country: United States Woeid: 2442047
+Name: Louisville Country: United States Woeid: 2442327
+Name: Memphis Country: United States Woeid: 2449323
+Name: Mesa Country: United States Woeid: 2449808
+Name: Miami Country: United States Woeid: 2450022
+Name: Milwaukee Country: United States Woeid: 2451822
+Name: Minneapolis Country: United States Woeid: 2452078
+Name: Nashville Country: United States Woeid: 2457170
+Name: New Haven Country: United States Woeid: 2458410
+Name: New Orleans Country: United States Woeid: 2458833
+Name: New York Country: United States Woeid: 2459115
+Name: Norfolk Country: United States Woeid: 2460389
+Name: Oklahoma City Country: United States Woeid: 2464592
+Name: Omaha Country: United States Woeid: 2465512
+Name: Orlando Country: United States Woeid: 2466256
+Name: Philadelphia Country: United States Woeid: 2471217
+Name: Phoenix Country: United States Woeid: 2471390
+Name: Pittsburgh Country: United States Woeid: 2473224
+Name: Portland Country: United States Woeid: 2475687
+Name: Providence Country: United States Woeid: 2477058
+Name: Raleigh Country: United States Woeid: 2478307
+Name: Richmond Country: United States Woeid: 2480894
+Name: Sacramento Country: United States Woeid: 2486340
+Name: St. Louis Country: United States Woeid: 2486982
+Name: Salt Lake City Country: United States Woeid: 2487610
+Name: San Antonio Country: United States Woeid: 2487796
+Name: San Diego Country: United States Woeid: 2487889
+Name: San Francisco Country: United States Woeid: 2487956
+Name: San Jose Country: United States Woeid: 2488042
+Name: Seattle Country: United States Woeid: 2490383
+Name: Tallahassee Country: United States Woeid: 2503713
+Name: Tampa Country: United States Woeid: 2503863
+Name: Tucson Country: United States Woeid: 2508428
+Name: Virginia Beach Country: United States Woeid: 2512636
+Name: Washington Country: United States Woeid: 2514815
+Name: Osaka Country: Japan Woeid: 15015370
+Name: Kyoto Country: Japan Woeid: 15015372
+Name: Delhi Country: India Woeid: 20070458
+Name: United Arab Emirates Country: United Arab Emirates Woeid: 23424738
+Name: Algeria Country: Algeria Woeid: 23424740
+Name: Argentina Country: Argentina Woeid: 23424747
+Name: Australia Country: Australia Woeid: 23424748
+Name: Austria Country: Austria Woeid: 23424750
+Name: Bahrain Country: Bahrain Woeid: 23424753
+Name: Belgium Country: Belgium Woeid: 23424757
+Name: Belarus Country: Belarus Woeid: 23424765
+Name: Brazil Country: Brazil Woeid: 23424768
+Name: Canada Country: Canada Woeid: 23424775
+Name: Chile Country: Chile Woeid: 23424782
+Name: Colombia Country: Colombia Woeid: 23424787
+Name: Denmark Country: Denmark Woeid: 23424796
+Name: Dominican Republic Country: Dominican Republic Woeid: 23424800
+Name: Ecuador Country: Ecuador Woeid: 23424801
+Name: Egypt Country: Egypt Woeid: 23424802
+Name: Ireland Country: Ireland Woeid: 23424803
+Name: France Country: France Woeid: 23424819
+Name: Ghana Country: Ghana Woeid: 23424824
+Name: Germany Country: Germany Woeid: 23424829
+Name: Greece Country: Greece Woeid: 23424833
+Name: Guatemala Country: Guatemala Woeid: 23424834
+Name: Indonesia Country: Indonesia Woeid: 23424846
+Name: India Country: India Woeid: 23424848
+Name: Israel Country: Israel Woeid: 23424852
+Name: Italy Country: Italy Woeid: 23424853
+Name: Japan Country: Japan Woeid: 23424856
+Name: Jordan Country: Jordan Woeid: 23424860
+Name: Kenya Country: Kenya Woeid: 23424863
+Name: Korea Country: Korea Woeid: 23424868
+Name: Kuwait Country: Kuwait Woeid: 23424870
+Name: Lebanon Country: Lebanon Woeid: 23424873
+Name: Latvia Country: Latvia Woeid: 23424874
+Name: Oman Country: Oman Woeid: 23424898
+Name: Mexico Country: Mexico Woeid: 23424900
+Name: Malaysia Country: Malaysia Woeid: 23424901
+Name: Nigeria Country: Nigeria Woeid: 23424908
+Name: Netherlands Country: Netherlands Woeid: 23424909
+Name: Norway Country: Norway Woeid: 23424910
+Name: New Zealand Country: New Zealand Woeid: 23424916
+Name: Peru Country: Peru Woeid: 23424919
+Name: Pakistan Country: Pakistan Woeid: 23424922
+Name: Poland Country: Poland Woeid: 23424923
+Name: Panama Country: Panama Woeid: 23424924
+Name: Portugal Country: Portugal Woeid: 23424925
+Name: Qatar Country: Qatar Woeid: 23424930
+Name: Philippines Country: Philippines Woeid: 23424934
+Name: Puerto Rico Country: Puerto Rico Woeid: 23424935
+Name: Russia Country: Russia Woeid: 23424936
+Name: Saudi Arabia Country: Saudi Arabia Woeid: 23424938
+Name: South Africa Country: South Africa Woeid: 23424942
+Name: Singapore Country: Singapore Woeid: 23424948
+Name: Spain Country: Spain Woeid: 23424950
+Name: Sweden Country: Sweden Woeid: 23424954
+Name: Switzerland Country: Switzerland Woeid: 23424957
+Name: Thailand Country: Thailand Woeid: 23424960
+Name: Turkey Country: Turkey Woeid: 23424969
+Name: United Kingdom Country: United Kingdom Woeid: 23424975
+Name: Ukraine Country: Ukraine Woeid: 23424976
+Name: United States Country: United States Woeid: 23424977
+Name: Venezuela Country: Venezuela Woeid: 23424982
+Name: Vietnam Country: Vietnam Woeid: 23424984
+Name: Petaling Country: Malaysia Woeid: 56013632
+Name: Hulu Langat Country: Malaysia Woeid: 56013645
+Name: Ahsa Country: Saudi Arabia Woeid: 56120136
+Name: Okayama Country: Japan Woeid: 90036018

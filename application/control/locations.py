@@ -21,5 +21,5 @@ def get_locations():
             name = place.get("name")
             country = place.get("country")
             woeid = place.get("woeid")
-            line = (str(name) + " " + str(country) + " " + str(woeid) + "\n")
+            line = ("Name: " + str(name) + " Country: " + str(country) + " Woeid: " + str(woeid) + "\n")
             f.write(line)
