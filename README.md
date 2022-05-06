@@ -5,6 +5,8 @@ Ohjelma ajossa (toistaiseksi) Google Cloudissa:
 - http://34.88.82.193/about (Mistä on kyse?)
 - http://34.88.82.193/admin (Pääkäyttäjän näkymä)
 
+Ohjeet deployaamiseen: [/apache_conf/httpd.conf][httpd.conf]
+
 Lokaalisti sovellusta voi testata:
 - Sovellus olettaa että hallussasi on Twitter API-avaimet (/application/control/api_keys.json), jotka ovat salaiset ja käyttäjäkohtaiset, joten niitä ei ole saatavilla tässä repositoriossa. Ilman avaimia trendaustietoja ei voida noutaa, mutta muokkaamalla [/dummy_data.json][dummy_data.json] tiedostoa voit lisätä sovellukseen testidataa.
 
